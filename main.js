@@ -132,7 +132,7 @@ document.querySelector(".control-buttons span").onclick = function () {
   
         firstBlock.classList.remove('is-flipped');
         secondBlock.classList.remove('is-flipped');
-        if(triesElement.innerHTML == "10"){
+        if(triesElement.innerHTML == "12"){
           blocksContainer.remove();
           document.getElementById("finishTitle").innerHTML="You Are Lose";
           document.getElementById("finishGame").style.zIndex=999;
